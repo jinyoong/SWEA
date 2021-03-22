@@ -1,0 +1,5 @@
+n = input()
+num_list = list(map(int, n.split(",")))
+num_tuple = tuple(num_list)
+print(num_list)
+print(num_tuple)
